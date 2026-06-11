@@ -8,21 +8,23 @@ export default async function Page() {
   return (
     <section>
       <div className="flex items-center gap-4 mb-8 sm:block">
-        <div className="flex-shrink-0 sm:hidden">
+        <div className="shrink-0 sm:hidden">
           <Image
             src="/avatar.jpg"
             alt="Ekagra Luthra"
             width={60}
             height={60}
-            className="rounded-2xl shadow-md"
+            className="size-[60px] min-w-[60px] min-h-[60px] max-w-none shrink-0 rounded-2xl shadow-md"
           />
         </div>
-        <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
-          I'm <span className="font-bold">Ekagra</span>
-        </h1>
-        <h2 className="mt-2 text-xl md:text-2xl font-medium text-neutral-700 dark:text-neutral-300">
-          Welcome to my personal website and portfolio
-        </h2>
+        <div>
+          <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
+            I'm <span className="font-bold">Ekagra</span>
+          </h1>
+          <h2 className="mt-2 text-lg sm:text-xl md:text-2xl font-medium text-neutral-700 dark:text-neutral-300">
+            Software Engineer
+          </h2>
+        </div>
       </div>
       <div className="flex items-start gap-4 mb-12">
         <div className="flex-1">

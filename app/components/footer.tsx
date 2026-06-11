@@ -32,7 +32,7 @@ export default function Footer() {
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} Ekagra Luthra · Posts licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-neutral-800 dark:hover:text-neutral-100">CC BY 4.0</a>
+        © {new Date().getFullYear()} Ekagra Luthra
       </p>
       <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-400">
         Portions of this website are adapted from work by <a href="https://github.com/indragie/indragie.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-neutral-800 dark:hover:text-neutral-100">Indragie Karunaratne</a>, used under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-neutral-800 dark:hover:text-neutral-100">CC BY 4.0</a>. Changes were made.

@@ -41,7 +41,6 @@ export function GitHubSection() {
     <div className="mb-14">
       <h2 className="mb-4 text-2xl font-semibold tracking-tight">GitHub</h2>
       <div>
-        <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">Selected repositories</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {manualRepos.map((repo) => (
             <a

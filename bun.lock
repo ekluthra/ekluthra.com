@@ -13,6 +13,7 @@
         "geist": "1.4.2",
         "markdown-to-jsx": "^7.7.8",
         "next": "canary",
+        "next-themes": "^0.4.6",
         "postcss": "^8.4.35",
         "react": "18.2.0",
         "react-dom": "18.2.0",
@@ -182,6 +183,8 @@
     "nanoid": ["nanoid@3.3.11", "", { "bin": { "nanoid": "bin/nanoid.cjs" } }, "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w=="],
 
     "next": ["next@15.4.0-canary.97", "", { "dependencies": { "@next/env": "15.4.0-canary.97", "@swc/helpers": "0.5.15", "caniuse-lite": "1.0.30001726", "postcss": "8.4.31", "styled-jsx": "5.1.6" }, "optionalDependencies": { "@next/swc-darwin-arm64": "15.4.0-canary.97", "@next/swc-darwin-x64": "15.4.0-canary.97", "@next/swc-linux-arm64-gnu": "15.4.0-canary.97", "@next/swc-linux-arm64-musl": "15.4.0-canary.97", "@next/swc-linux-x64-gnu": "15.4.0-canary.97", "@next/swc-linux-x64-musl": "15.4.0-canary.97", "@next/swc-win32-arm64-msvc": "15.4.0-canary.97", "@next/swc-win32-x64-msvc": "15.4.0-canary.97", "sharp": "0.34.2" }, "peerDependencies": { "react": "18.2.0", "react-dom": "18.2.0" }, "bin": { "next": "dist/bin/next" } }, "sha512-bpPpivhPtoiyojP6dLViqmEuU169kNXT8TZvCCbdvsA5eDO0KeoHm2DTu9DBYBAwcD7EH+i7qINLkVe1yvzMGg=="],
+
+    "next-themes": ["next-themes@0.4.6", "", { "peerDependencies": { "react": "^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc", "react-dom": "^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc" } }, "sha512-pZvgD5L0IEvX5/9GWyHMf3m8BKiVQwsCMHfoFosXtXBMnaS0ZnIJ9ST4b4NqLVKDEm8QBxoNNGNaBv2JNF6XNA=="],
 
     "path-parse": ["path-parse@1.0.7", "", {}, "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw=="],
 

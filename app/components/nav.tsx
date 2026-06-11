@@ -2,13 +2,14 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { ThemeToggle } from './themetoggle'
 
 const navItems = {
   '/': {
     name: 'home',
   },
-  '/blog': {
-    name: 'blog',
+  '/resume': {
+    name: 'resume',
   },
 }
 
@@ -51,10 +52,10 @@ export function Navbar() {
   const pathname = usePathname()
   
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="lg:sticky lg:top-20">
+    <header className="fixed top-0 left-0 right-0 z-50 tracking-tight backdrop-blur-sm">
+      <div className="max-w-2xl mx-4 lg:mx-auto px-2 md:px-0">
         <nav
-          className="flex flex-row items-center justify-between relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+          className="flex flex-row items-center justify-between py-3 -ml-[8px] fade"
           id="nav"
         >
           <div className="flex flex-row space-x-0">
@@ -79,6 +80,7 @@ export function Navbar() {
             })}
           </div>
           <div className="flex flex-row space-x-2">
+            <ThemeToggle />
             <a
               href="https://github.com/ekluthra"
               target="_blank"
@@ -107,6 +109,6 @@ export function Navbar() {
           </div>
         </nav>
       </div>
-    </aside>
+    </header>
   )
 }
