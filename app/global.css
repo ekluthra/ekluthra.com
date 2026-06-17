@@ -259,3 +259,44 @@ table {
   @apply text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300;
   text-decoration: none;
 }
+
+/* Layered elevation: light inset highlight on top + soft drop shadow below */
+.experience-card {
+  @apply bg-neutral-100 dark:bg-neutral-900 rounded-lg transition-[box-shadow,background-color] duration-200;
+  box-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.7),
+    0 1px 2px 0 rgb(0 0 0 / 0.05),
+    0 2px 4px -1px rgb(0 0 0 / 0.06);
+}
+
+.experience-card:hover {
+  box-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.8),
+    0 4px 8px -2px rgb(0 0 0 / 0.08),
+    0 8px 16px -4px rgb(0 0 0 / 0.1);
+}
+
+.dark .experience-card {
+  box-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.06),
+    0 1px 2px 0 rgb(0 0 0 / 0.25),
+    0 2px 4px -1px rgb(0 0 0 / 0.35);
+}
+
+.dark .experience-card:hover,
+.dark .experience-card[aria-expanded='true'] {
+  @apply bg-neutral-800;
+  box-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.2),
+    0 6px 14px -2px rgb(0 0 0 / 0.55),
+    0 14px 28px -4px rgb(0 0 0 / 0.65),
+    0 0 0 1px rgb(255 255 255 / 0.06);
+}
+
+.experience-card[aria-expanded='true'] {
+  box-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.8),
+    0 4px 8px -2px rgb(0 0 0 / 0.08),
+    0 8px 16px -4px rgb(0 0 0 / 0.1);
+}
+

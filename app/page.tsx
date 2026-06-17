@@ -1,4 +1,4 @@
-import { ProfessionalExperience } from 'app/components/posts'
+import { ProfessionalExperience } from 'app/components/professional-experience-section'
 import { BackToTop } from 'app/components/back-to-top'
 import { GitHubSection } from 'app/components/github-section'
 import { ProjectCarousel } from 'app/components/project-carousel'

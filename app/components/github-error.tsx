@@ -7,7 +7,7 @@ export function GitHubError() {
           Unable to load GitHub activity at the moment.
         </p>
         <a
-          href="https://github.com/indragiek"
+          href="https://github.com/ekluthra"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline underline-offset-4 transition-colors"

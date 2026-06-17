@@ -19,8 +19,8 @@ async function loadGoogleFont(font: string, text: string, weight: number = 400) 
 
 export async function GET(request: Request) {
   let url = new URL(request.url)
-  let title = url.searchParams.get('title') || 'Indragie Karunaratne'
-  let subtitle = url.searchParams.get('subtitle') || 'Director of Engineering at Sentry'
+  let title = url.searchParams.get('title') || 'Ekagra Luthra'
+  let subtitle = url.searchParams.get('subtitle') || 'Software Engineer'
   let showAvatar = url.searchParams.get('avatar') !== 'false'
   let type = url.searchParams.get('type')
   let date = url.searchParams.get('date')
