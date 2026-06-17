@@ -158,7 +158,7 @@ export function ProjectCarousel() {
       {/* Navigation Arrows */}
       <button
         onClick={goToPrevious}
-        className={`absolute left-4 top-[40%] -translate-y-1/2 p-3 rounded-full bg-white/90 dark:bg-black/90 backdrop-blur-sm shadow-lg transition-all hover:scale-110 ${
+        className={`absolute left-4 top-[40%] -translate-y-1/2 p-3 rounded-full bg-neutral-400/45 backdrop-blur-sm shadow-lg transition-all hover:scale-110 ${
           isHovered ? 'opacity-100' : 'opacity-0'
         }`}
         aria-label="Previous project"
@@ -170,7 +170,7 @@ export function ProjectCarousel() {
 
       <button
         onClick={goToNext}
-        className={`absolute right-4 top-[40%] -translate-y-1/2 p-3 rounded-full bg-white/90 dark:bg-black/90 backdrop-blur-sm shadow-lg transition-all hover:scale-110 ${
+        className={`absolute right-4 top-[40%] -translate-y-1/2 p-3 rounded-full bg-neutral-400/45 backdrop-blur-sm shadow-lg transition-all hover:scale-110 ${
           isHovered ? 'opacity-100' : 'opacity-0'
         }`}
         aria-label="Next project"

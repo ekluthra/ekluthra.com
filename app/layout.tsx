@@ -62,11 +62,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cx(
-        'antialiased max-w-2xl mx-4 lg:mx-auto',
+        'antialiased max-w-2xl mx-4 lg:mx-auto bg-neutral-50 dark:bg-neutral-950',
         GeistSans.variable,
         GeistMono.variable
       )}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class">
           <Navbar />
           <main className="flex-auto min-w-0 pt-20 flex flex-col px-2 md:px-0">
             {children}

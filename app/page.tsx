@@ -14,22 +14,25 @@ export default async function Page() {
             alt="Ekagra Luthra"
             width={60}
             height={60}
-            className="size-[60px] min-w-[60px] min-h-[60px] max-w-none shrink-0 rounded-2xl shadow-md"
+            className="size-[60px] min-w-[67px] min-h-[60px] max-w-none shrink-0 rounded-2xl shadow-md"
           />
         </div>
         <div>
-          <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
-            I'm <span className="font-bold">Ekagra</span>
+          <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100">
+            <span className="font-bold">Ekagra Luthra</span>
           </h1>
-          <h2 className="mt-2 text-lg sm:text-xl md:text-2xl font-medium text-neutral-700 dark:text-neutral-300">
+          <h2 className="mt-2 text-lg text-neutral-800 dark:text-neutral-200 sm:text-xl md:text-2xl font-medium"> 
             Software Engineer
           </h2>
         </div>
       </div>
       <div className="flex items-start gap-4 mb-12">
         <div className="flex-1">
-          <p className="text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
-            I'm a Full Stack Developer at <a href="https://www.workiva.com/" target="_blank" rel="noopener noreferrer" className="font-medium text-neutral-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Workiva</a> working on encryption and cloud infrastructure. Prior to interning and working full-time at Workiva, I was a Software Developer Intern at Amazon, and a Computer Science student at the University of Toronto. During my time at the University, my major areas of interest were microcontrollers, computer networking, and computer security systems.
+          <p className="text-base leading-relaxed text-neutral-700 dark:text-neutral-300">
+            I'm a software engineer with experience in full stack development, cloud infrastructure, and encryption. 
+            I studied computer science at the University of Toronto, where I got to explore my interests in computer security, networking, and microcrontrollers.
+            {/* text-neutral-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-green-400*/}
+           
           </p>
         </div>
         <div className="flex-shrink-0 hidden sm:block">
@@ -43,11 +46,11 @@ export default async function Page() {
         </div>
       </div>
       <section className="mb-14">
-        <h2 className="mb-4 text-2xl font-semibold tracking-tight">Professional Experience</h2>
+        <h2 className="mb-4 text-2xl font-semibold tracking-tight text-neutral-800 dark:text-neutral-200">Professional Experience</h2>
         <ProfessionalExperience />
       </section>
       <section className="mb-14">
-        <h2 className="mb-6 text-2xl font-semibold tracking-tight">Projects</h2>
+        <h2 className="mb-6 text-2xl font-semibold tracking-tight text-neutral-800 dark:text-neutral-200">Projects</h2>
         <ProjectCarousel />
       </section>
 

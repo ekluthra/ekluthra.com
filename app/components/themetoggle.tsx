@@ -7,15 +7,15 @@ export function ThemeToggle() {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => setMounted(true), [])
-  if (!mounted) return <div style={{ width: 52, height: 26 }} />
+  if (!mounted) return null
 
   return (
     <label className="relative cursor-pointer" aria-label="Toggle dark mode"
       style={{ display: 'inline-block', width: 52, height: 26 }}>
       <input
         type="checkbox"
-        className="sr-only"
         checked={resolvedTheme === 'dark'}
+        className="sr-only"
         onChange={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
       />
       <span className="theme-slider">
