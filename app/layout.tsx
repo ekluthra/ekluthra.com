@@ -16,18 +16,18 @@ export const metadata: Metadata = {
     default: 'Ekagra Luthra',
     template: '%s | Ekagra Luthra',
   },
-  description: "I'm a Director of Engineering at Sentry working on observability tools. I started my career as an independent iOS and macOS developer, then worked on mobile infrastructure at Meta before co-founding Specto, a mobile application performance monitoring startup (acquired by Sentry). Lately, I've been exploring AI developer tools and building Context, a macOS app for debugging MCP servers.",
+  description: "I'm a Software Engineer at Workiva working on encryption and cloud security. I have an interest in computer security and microcontrollers.",
   openGraph: {
-    title: 'Indragie Karunaratne',
-    description: "I'm a Director of Engineering at Sentry working on observability tools. I started my career as an independent iOS and macOS developer, then worked on mobile infrastructure at Meta before co-founding Specto, a mobile application performance monitoring startup (acquired by Sentry). Lately, I've been exploring AI developer tools and building Context, a macOS app for debugging MCP servers.",
+    title: 'Ekagra Luthra',
+    description: "I'm a Software Engineer at Workiva working on encryption and cloud security. I have an interest in computer security and microcontrollers.",
     url: baseUrl,
-    siteName: 'Indragie Karunaratne',
+    siteName: 'Ekagra Luthra',
     images: [
       {
         url: `${baseUrl}/og`,
         width: 1200,
         height: 630,
-        alt: 'Indragie Karunaratne - Director of Engineering at Sentry',
+        alt: 'Ekagra Luthra - Software Engineer at Workiva',
       },
     ],
     locale: 'en_US',
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Indragie Karunaratne',
-    description: "I'm a Director of Engineering at Sentry working on observability tools. I started my career as an independent iOS and macOS developer, then worked on mobile infrastructure at Meta before co-founding Specto, a mobile application performance monitoring startup (acquired by Sentry). Lately, I've been exploring AI developer tools and building Context, a macOS app for debugging MCP servers.",
+    title: 'Ekagra Luthra',
+    description: "I'm a Software Engineer at Workiva working on encryption and cloud security. I have an interest in computer security and microcontrollers.",
     images: [`${baseUrl}/og`],
   },
   robots: {
