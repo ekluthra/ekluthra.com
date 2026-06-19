@@ -270,6 +270,7 @@ table {
 }
 
 .experience-card:hover {
+  @apply bg-[#d5ede0] dark:bg-[#201b29];
   box-shadow:
     inset 0 1px 0 0 rgb(255 255 255 / 0.8),
     0 4px 8px -2px rgb(0 0 0 / 0.08),
@@ -285,7 +286,6 @@ table {
 
 .dark .experience-card:hover,
 .dark .experience-card[aria-expanded='true'] {
-  @apply bg-neutral-800;
   box-shadow:
     inset 0 1px 0 0 rgb(255 255 255 / 0.2),
     0 6px 14px -2px rgb(0 0 0 / 0.55),
