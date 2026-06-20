@@ -18,21 +18,19 @@ function ArrowIcon() {
 export default function Footer() {
   return (
     <footer className="mb-16">
-      {/* text-neutral-600 dark:text-neutral-300 */}
       <ul className="font-sm mt-8 flex flex-row space-x-4">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/ekluthra/ekluthra.com" //TODO get this link to be the actual code url
+            href="https://github.com/ekluthra/ekluthra.com"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">github</p>
           </a>
         </li>
       </ul>
-      {/* text-neutral-600 dark:text-neutral-300 */}
       <p className="mt-8">
         © {new Date().getFullYear()} Ekagra Luthra
       </p>

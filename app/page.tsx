@@ -4,7 +4,7 @@ import { GitHubSection } from 'app/components/github-section'
 import { ProjectCarousel } from 'app/components/project-carousel'
 import Image from 'next/image'
 
-export default async function Page() {
+export default function Page() {
   return (
     <section>
       <div className="flex items-center gap-4 mb-8 sm:block">
@@ -30,8 +30,7 @@ export default async function Page() {
         <div className="flex-1">
           <p className="text-base leading-relaxed text-neutral-700 dark:text-neutral-300">
             I'm a software engineer with experience in full stack development, cloud infrastructure, and encryption. 
-            I studied computer science at the University of Toronto, where I got to explore my interests in computer security, networking, and microcrontrollers.
-            {/* text-neutral-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-green-400*/}
+            I studied computer science at the University of Toronto, where I got to explore my interests in computer security, networking, and microcontrollers.
            
           </p>
         </div>
@@ -55,7 +54,6 @@ export default async function Page() {
       </section>
 
       <GitHubSection />
-      <BackToTop />
     </section>
   )
 }

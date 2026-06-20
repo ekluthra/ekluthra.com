@@ -62,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cx(
-        'antialiased max-w-2xl mx-4 lg:mx-auto bg-neutral-50 dark:bg-neutral-950',
+        'antialiased max-w-2xl mx-4 lg:mx-auto bg-neutral-150 dark:bg-black',
         GeistSans.variable,
         GeistMono.variable
       )}>

@@ -8,7 +8,7 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/resume': {
+  '/resume.pdf': {
     name: 'resume',
   },
 }
@@ -55,7 +55,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 tracking-tight backdrop-blur-sm">
       <div className="max-w-2xl mx-4 lg:mx-auto px-2 md:px-0">
         <nav
-          className="flex flex-row items-center justify-between py-3 -ml-[8px] fade"
+          className="flex flex-row items-center justify-between py-3 -ml-[8px]"
           id="nav"
         >
           <div className="flex flex-row space-x-0">
@@ -65,11 +65,7 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  // className={`transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 ${
-                  //   isActive 
-                  //     ? 'text-neutral-900 dark:text-white font-medium' 
-                  //     : 'text-neutral-600 dark:text-neutral-400'
-                  // }`}
+                  target='_'
                   className={`transition-all hover:text-neutral-800 hover:dark:text-neutral-200 hover:text-neutral flex align-middle relative py-1 px-2 m-1 ${
                     isActive 
                       ? 'text-neutral-900 dark:text-white font-medium' 

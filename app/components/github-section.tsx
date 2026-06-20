@@ -1,5 +1,6 @@
 
-// Manually specify repositories to display
+import Image from "next/image";
+
 const skills = [
   // Languages
   { name: "Go", logo: "https://cdn.simpleicons.org/go/cyan"},
@@ -28,6 +29,7 @@ export function GitHubSection() {
               className="flex flex-col items-center gap-2 group"
             >
               <div className="w-10 h-10 flex items-center justify-center transition-transform duration-200 group-hover:-translate-y-0.5">
+                {/* keep this as unoptimized, or <img> instead of next/image because we'd have to enable dangerouslyAllowSVG in next config */}
                 <img
                   src={skill.logo}
                   alt={skill.name}
