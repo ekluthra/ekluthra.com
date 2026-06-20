@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import Image from 'next/image'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence, type Variants } from 'framer-motion'
 
 interface Project {
   name: string
@@ -27,7 +27,7 @@ const projects: Project[] = [
     description: 'cost splitting for roommates',
     year: '2022',
     image: '/HouseMate.png',
-    url: 'http://flamingo.im/',
+    url: 'https://github.com/ekluthra/HouseMate',
     badge: 'App'
   },
   {
@@ -35,7 +35,7 @@ const projects: Project[] = [
     description: 'too hot? the LED shines red. too cold? it shines blue.',
     year: '2025',
     image: '/dht.jpg',
-    url: 'https://github.com/sonoramac/Sonora',
+    url: 'https://github.com/ekluthra/DHTDisplay',
     badge: 'Hardware'
   }
 ]
@@ -49,7 +49,7 @@ function getCardPosition(index: number, current: number, total: number): CardPos
   return 'hidden'
 }
 
-const cardVariants = {
+const cardVariants: Variants = {
   center: {
     x: '0%',
     scale: 1,
@@ -222,7 +222,7 @@ export function ProjectCarousel() {
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: 8 }}
                             transition={{ duration: 0.2 }}
-                            className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-lg border transition-colors text-neutral-900 dark:text-neutral-100 border-neutral-300 dark:border-neutral-600 bg-neutral-100/60 dark:bg-neutral-800/60 hover:bg-neutral-200/80 dark:hover:bg-neutral-700/80"
+                            className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-lg border transition-colors text-neutral-900 dark:text-neutral-100 border-neutral-300 dark:border-neutral-600 bg-neutral-100/60 dark:bg-neutral-800/60 hover:bg-[#d5ede0] dark:hover:bg-[#201b29]"
                             onClick={(e) => e.stopPropagation()}
                           >
                             View
