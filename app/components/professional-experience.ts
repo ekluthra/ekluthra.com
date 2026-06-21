@@ -24,7 +24,7 @@ export const experiences: ProfessionalExperience[] = [
   {
     date: "2022",
     company: "Amazon",
-    image: "/company-icons/amazon_icon.png",
+    image: "/company-icons/Amazon_icon.png",
     description: "Full Stack Software Development Engineer Intern on the Contact Lens team, developing features for an ML-powered contact categorization system.",
     details: [
       " Updated the NodeJS back-end and React Typescript front-end for a tool that automates and monitors quality assurance, to allow the user to create 1100% more entries in an ML-based contact categorization engine.",
